@@ -1,2 +1,35 @@
 # ACF-Segmentation
-Codes to reproduce the results in "Reconstruction of the autocorrelation function from segmented data and its application to the Earth’s seismic hum"
+Implementation of the method decribed in the paper. Jupyter noteboooks offer a step by step guide to reproduce the results and process any kind of signal. Any comment on the improvement of calculation speed is very welcome !
+
+## Contents
+- [Introduction](#introduction)
+- [Repository contents](#Repository-contents)
+- [Citing this package](#citing-this-package)
+- [Acknowledgements](#acknowledgements)
+
+
+## Introduction
+The current package aims at illustrating the method developed in the GJI paper and additionally to guide the user in a step by step application on real data. The method could be used in the future for extraterrestrial application if the seismic hum is supposed to be excited. 
+
+## Repository contents
+
+The scripts in this repository are described below
+
+
+- The core rountines can be found in 'SegmentACF.py`.
+- A step by step illustration for synthetic data is proposed in `Illustration.ipynb`.
+- An illustration of processing on a real data set of single station hum measurement is set up in  `ExampleStationBFO.ipynb`
+- The figures for the inversion results can be reproduced using the `numpy` files with the notebook `Inversion.ipynb`.
+
+
+## Citing this package
+If you make use of this code or the method in a different implementation, please acknowledge our previous work ! You cite the following paper:
+
+...
+
+You can cite in the following way: "We used the auto-correlation segmentation method to process the data, which is described in Dubois-Dognon and Nishdia (2025)."
+
+## Acknowledgements
+
+This package was developed at the Earthquake Research Insitute in Tokyo by Balthazar Dubois-Dognon and Kiwamu Nishida. 
+This project has been founded by the JSPS KAKENHI Grant Number 24K07170.
