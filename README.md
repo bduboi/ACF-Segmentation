@@ -16,7 +16,7 @@ The current package aims at illustrating the method developed in the GJI paper a
 The scripts in this repository are described below
 
 
-- The core rountines can be found in 'SegmentACF.py`.
+- The core rountines can be found in `SegmentACF.py`.
 - A step by step illustration for synthetic data is proposed in `Illustration.ipynb`.
 - An illustration of processing on a real data set of single station hum measurement is set up in  `ExampleStationBFO.ipynb`
 - The figures for the inversion results can be reproduced using the `numpy` files with the notebook `Inversion.ipynb`.
