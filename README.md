@@ -16,7 +16,7 @@ The current package aims at illustrating the method developed in the GJI paper a
 The scripts in this repository are described below
 
 
-- The core rountines can be found in `libCombCC.py`.
+- The core rountines can be found in `libCombCC.py`. It contains the class `CombCC` which is developped to support both cross and auto-correlation. The expension to cross-correlation is currently being tested and the repository shall be updated in the future. The class currently takes a trace as input an runs a data selection based on amplitudes thresholds for specified frequency bands. The calculation are fully vectorized and make used of the very effective pyfftw python library to compute the fft of the segments. For exemple, auto-correlation of 6 months data at a sampling rate of 10s (~ 2 million data points) takes less than 3 seconds.
 - A step by step illustration for synthetic data is proposed in `Illustration.ipynb`.
 - An illustration of processing on a real data set of single station hum measurement is set up in  `ExampleStationBFO.ipynb`
 - The figures for the inversion results can be reproduced using the `numpy` files with the notebook `Inversion.ipynb`.
