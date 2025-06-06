@@ -1,5 +1,5 @@
 # CCF-Segmentation
-Implementation of the method decribed in the paper. Jupyter noteboooks offer a step by step guide to reproduce the results and process any kind of signal. Any comment on the improvement of calculation speed is very welcome !
+Implementation of the method decribed in the paper. Jupyter noteboooks offer a step by step guide to reproduce the results and process any kind of stationary stochastic signal.
 
 ## Contents
 - [Introduction](#introduction)
