@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15591079.svg)](https://doi.org/10.5281/zenodo.15591079)
 # CCF-Segmentation
 Implementation of the method decribed in the paper. Jupyter noteboooks offer a step by step guide to reproduce the results and process any kind of stationary stochastic signal.
 
@@ -27,7 +28,6 @@ If you make use of this code or the method in a different implementation, please
 [Dubois-Dognon, B., Nishida, K.,(20XX)](URL) "Reconstruction of the autocorrelation function from segmented data and its application to the Earth’s seismic hum", Geophysical Journal International, ggacXXX, doi:?.
 
 You can cite in the following way: "We used the auto-correlation segmentation method to process the data, which is described in Dubois-Dognon and Nishdia (2025)."
-This repository is associated with a Zenodo DOI :10.5281/zenodo.15591078. 
 
 ## Acknowledgements
 
